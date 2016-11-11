@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "base64-js": "^1.2.0",
+    "plist": "^2.0.1"
+  }
+}

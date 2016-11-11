@@ -1,0 +1,13 @@
+{
+  "name": "flow-jest-resolve",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "jest Libraries/__tests__/ImagePreview-test.js",
+    "postinstall": "cd vendor && npm install"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.34.0",
+    "jest": "^17.0.0"
+  }
+}
