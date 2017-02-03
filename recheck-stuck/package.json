@@ -1,0 +1,26 @@
+{
+  "name": "nuclide-flow-rpc",
+  "version": "0.0.0",
+  "description": "JSON based RPC system using flow types for marshalling",
+  "keywords": [
+    "flow",
+    "rpc"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "src/index.js",
+  "bin": "bin/cli.js",
+  "repository": "https://github.com/facebooknuclide/nuclide-flow-rpc",
+  "scripts": {
+    "flow": "flow check --show-all-errors",
+    "lint": "eslint --max-warnings=0 .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-generator": "6.22.0",
+    "babel-types": "6.22.0",
+    "babylon": "6.15.0",
+    "resolve-from": "2.0.0",
+    "rxjs": "5.0.1",
+    "simple-text-buffer": "9.2.11"
+  }
+}
