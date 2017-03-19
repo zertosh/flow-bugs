@@ -1,0 +1,23 @@
+[ignore]
+flow-lib-0.42.0/
+
+[include]
+
+[libs]
+; flow-lib-0.42.0/bom.js
+flow-lib-0.42.0/core.js
+; flow-lib-0.42.0/cssom.js
+; flow-lib-0.42.0/dom.js
+; flow-lib-0.42.0/indexeddb.js
+flow-lib-0.42.0/node.js
+; flow-lib-0.42.0/react.js
+; flow-lib-0.42.0/serviceworkers.js
+; flow-lib-0.42.0/streams.js
+
+; flow-typed/npm/debug_v2.x.x.js
+
+[options]
+no_flowlib=true
+
+[version]
+0.42.0

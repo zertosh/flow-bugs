@@ -1,0 +1,9 @@
+{
+  "name": "no-flowlib-debug",
+  "version": "0.0.0",
+  "dependencies": {
+    "debug": "2.6.3",
+    "flow-bin": "0.42.0"
+  },
+  "private": true
+}
